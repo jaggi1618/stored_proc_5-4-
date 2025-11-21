@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 5743c391-7647-4933-9118-2e0e012c8a2c
+name: dw_client_benchmarking_client
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: DBSHIFT
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63b84ca3-d2d4-486a-8d07-a36c1e34e565
+          stepCounter: 5743c391-7647-4933-9118-2e0e012c8a2c
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SOURCE_SYSTEM_POLICY_LINE_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e4b25712-411a-4f51-871d-3b5cd37e7545
+          stepCounter: 5743c391-7647-4933-9118-2e0e012c8a2c
+        config: {}
+        dataType: TIMESTAMP_NTZ
+        defaultValue: ""
+        description: ""
+        name: DW_DATE_DELETED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: dw_client_benchmarking_client
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
