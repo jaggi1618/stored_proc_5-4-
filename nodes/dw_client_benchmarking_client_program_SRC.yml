@@ -1,0 +1,73 @@
+fileVersion: 1
+id: 48f936d5-6f97-400a-9d62-42173f4e1f7c
+name: dw_client_benchmarking_client_program_SRC
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: DBSHIFT
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 32629738-f947-4d9f-a496-c1743f9c656d
+          stepCounter: 48f936d5-6f97-400a-9d62-42173f4e1f7c
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: DW_CLIENT_BENCHMARKING_CLIENT_PROGRAM_ID
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67d988ab-d375-4752-984e-3965d1b70cbe
+          stepCounter: 48f936d5-6f97-400a-9d62-42173f4e1f7c
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: SOURCE_SYSTEM_POLICY_LINE_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f3f6e147-321b-48ae-947b-117564d265f4
+          stepCounter: 48f936d5-6f97-400a-9d62-42173f4e1f7c
+        config: {}
+        dataType: VARCHAR
+        defaultValue: ""
+        description: ""
+        name: PROGRAM_TYPE_KEY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: dw_client_benchmarking_client_program_SRC
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
