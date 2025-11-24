@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 5f9e1b2c-3d4e-4f5a-6b7c-8d9e0f1a2b3c
+name: DW_CLIENT_BENCHMARKING_CLIENT
+operation:
+  database: Alliant_DW
+  deployEnabled: true
+  description: ""
+  locationName: DBSHIFT
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: false
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+          stepCounter: 5f9e1b2c-3d4e-4f5a-6b7c-8d9e0f1a2b3c
+        config: {}
+        dataType: INTEGER
+        defaultValue: ""
+        description: ""
+        name: SOURCE_SYSTEM_POLICY_LINE_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: false
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+          stepCounter: 5f9e1b2c-3d4e-4f5a-6b7c-8d9e0f1a2b3c
+        config: {}
+        dataType: TIMESTAMP_NTZ
+        defaultValue: ""
+        description: ""
+        name: DW_DATE_DELETED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: DW_CLIENT_BENCHMARKING_CLIENT
+  schema: dbo
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
