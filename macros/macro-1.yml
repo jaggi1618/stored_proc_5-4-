@@ -1,0 +1,7 @@
+fileVersion: 1
+id: "1"
+macroString: |-
+  {% set current_timestamp = 'CAST(CURRENT_TIMESTAMP AS TIMESTAMP)' %}
+  {% set proc_name = "'spdw_dw_client_benchmarking_client_program_insertUpdate'" %}
+name: macro
+type: Macro
